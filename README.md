@@ -1,8 +1,9 @@
 # jbcrypt-cli
 
-https://opensource.com/article/21/8/java-commons-cli
-https://opensource.com/article/21/8/fastjar
-
+References:
+- https://opensource.com/article/21/8/java-commons-cli
+- https://opensource.com/article/21/8/fastjar
+```
 compile:
 javac -cp commons-cli-1.5.0.jar BCrypt.java
 
@@ -28,3 +29,4 @@ Examples:
 - verify hash:
   java -jar bcrypt.jar "secret" -c $2a$10$Mt.4T51uOgYM.8YigT45BO14eiwIIAAQIj5Aox8MsIEUn8iAAc/Gm
   Hash verified!
+```
