@@ -4,7 +4,7 @@ References:
 - https://opensource.com/article/21/8/java-commons-cli
 - https://opensource.com/article/21/8/fastjar
 ```
-compile:
+compile (java 8+)
 javac -cp commons-cli-1.5.0.jar BCrypt.java
 
 build jar:
